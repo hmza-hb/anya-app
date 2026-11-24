@@ -1,0 +1,7 @@
+# Flutter for local dev only (SDK is cached by mise under ~/.local/share/mise, not in git).
+[tools]
+flutter = "3.50.1"
+
+# Flutter's web tooling looks for `google-chrome`; Arch often only has this binary.
+[env]
+CHROME_EXECUTABLE = "/usr/bin/google-chrome-stable"
